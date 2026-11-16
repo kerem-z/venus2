@@ -14,6 +14,7 @@ from enum import Enum
 import numpy as np
 import torch
 import math
+import itertools
 
 from venus.common.configuration import Config
 from venus.bounds.equation import Equation

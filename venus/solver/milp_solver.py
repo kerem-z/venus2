@@ -20,6 +20,7 @@ from venus.common.utils import ReluState
 from venus.common.logger import get_logger
 from timeit import default_timer as timer
 import numpy as np
+import itertools
 
 class MILPSolver:
 
